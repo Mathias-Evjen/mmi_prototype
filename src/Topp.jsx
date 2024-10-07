@@ -2,15 +2,15 @@
 function Topp(props) {
 
     const brannLys = {
-        backgroundColor: props.status === "Brann" ? "hsla(0, 100%, 50%, 0.774)" : "hsla(0, 100%, 50%, 0.185)"
+        backgroundColor: props.status === "Brann" ? "hsla(0, 100%, 50%, 0.774)" : "hsla(0, 0%, 100%)"
     }
     
     const lufterLys = {
-        backgroundColor: props.status === "Lufter" ? "hsla(400, 100%, 50%, 0.774)" : "hsla(400, 100%, 50%, 0.185)"
+        backgroundColor: props.status === "Lufter" ? "hsla(400, 100%, 50%, 0.774)" : "hsla(0, 0%, 100%)"
     }
 
     const defaultLys = {
-        backgroundColor: props.status === "Default" ? "hsla(500, 100%, 35%)" : "hsla(500, 100%, 40%, 0.185)"
+        backgroundColor: props.status === "Default" ? "hsla(500, 100%, 35%)" : "hsla(0, 0%, 100%)"
     }
 
     return(
