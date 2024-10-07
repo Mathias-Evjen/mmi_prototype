@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Topp from "./assets/Topp";
+import Topp from "./Topp";
 import Timer from "./Timer";
 
 function Boks() {
