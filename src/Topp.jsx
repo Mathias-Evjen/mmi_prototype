@@ -14,10 +14,11 @@ function Topp(props) {
     }
 
     return(
-        <>
+        <>  
+            <h2>Dersom det ikke er brann, gjør følgende:</h2>
             <div className="lys-text-holder">
                 <div className="lys" style={brannLys}></div>
-                <p>Ikke brann: trykk og hold knapp i 3 sekunder og luft ut.</p>
+                <p>Trykk og hold knapp i 3 sekunder og luft ut.</p>
             </div>
             <div className="lys-text-holder">
                 <div className="lys" style={lufterLys}></div>
