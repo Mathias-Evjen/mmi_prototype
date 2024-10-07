@@ -17,15 +17,15 @@ function Topp(props) {
         <>  
             <h2>Dersom det ikke er brann, gjør følgende:</h2>
             <div className="lys-text-holder">
-                <div className="lys" style={brannLys}></div>
-                <p>Trykk og hold knapp i 3 sekunder og luft ut.</p>
+                <div className="lys" style={brannLys}>lys</div>
+                <p>Trykk og hold knapp i 3 sekunder, deretter luft ut.</p>
             </div>
             <div className="lys-text-holder">
-                <div className="lys" style={lufterLys}></div>
+                <div className="lys" style={lufterLys}>lys</div>
                 <p>Ferdig luftet: trykk og hold knapp i 3 sekunder.</p>
             </div>
             <div className="lys-text-holder">
-                <div className="lys" style={defaultLys}></div>
+                <div className="lys" style={defaultLys}>lys</div>
                 <p>Alt er bra.</p>
             </div>
         </>

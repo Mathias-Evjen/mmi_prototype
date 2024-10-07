@@ -51,10 +51,9 @@ function Boks() {
     
     const trykketStyle = {
         filter: erTrykket ? "brightness(90%)" : "brightness(100%)",
-        boxShadow: erTrykket ? "10px 10px 10px hsl(0, 0%, 40%)" : "10px 10px 10px hsl(0, 0%, 20%)",
     }
 
-    const bildeUrl = "./src/assets/knapp.jpg";
+    const bildeUrl = "./src/assets/knapp_3.jpg";
 
     return(
         <>

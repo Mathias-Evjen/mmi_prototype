@@ -24,8 +24,8 @@ body{
 
 .knapp{
     max-width: 12.5em;
+    border: 6px solid black;
     border-radius: 50%;
-    box-shadow: 10px 10px 10px hsl(0, 0%, 20%);
     margin-right: 3rem;
     margin-left: 4rem;
 }
