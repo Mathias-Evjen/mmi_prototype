@@ -53,27 +53,27 @@ function Boks() {
         filter: erTrykket ? "brightness(90%)" : "brightness(100%)",
     }
 
-    const bildeUrl = "./src/assets/knapp_3.jpg";
+    const bildeUrl = "./src/assets/kanseller_knapp.jpg";
 
     return(
         <>
             <div className="boks">
+                <div className="klokke-tekst">
+                    <h3>Tid til brannsentral blir varslet:</h3>
+                    <Timer statustatus={alarmStatus}/>
+                </div>
                 <div className="topp">
                     <Topp status={alarmStatus}/>
                 </div>
                 <div className="bunn">
-                    <div className="knapper">
-                        <img    className="knapp" src={bildeUrl}
-                                style={trykketStyle}
-                                onMouseDown={handleMuseTrykk}
-                                onMouseUp={handleMuseSlipp}
-                                onMouseLeave={handleMusForlater}>
-                                </img>
-                    </div>
-                    <div className="klokke-tekst">
-                        <h4>Tid til brannsentral blir varslet:</h4>
-                        <Timer status={alarmStatus}/>
-                    </div>
+                    <div className="høyttaler"><p>Høyttaler</p></div>
+                    <img    className="knapp" src={bildeUrl}
+                            style={trykketStyle}
+                            onMouseDown={handleMuseTrykk}
+                            onMouseUp={handleMuseSlipp}
+                            onMouseLeave={handleMusForlater}>
+                            </img>
+                    <div className="høyttaler"><p>Høyttaler</p></div>
                 </div>
             </div>
             <button className="brann-knapp" onClick={erBrann}><b>Brann</b></button>

@@ -30,7 +30,8 @@ Lysene var så store at de liknet på knapper
 
 Heller bilde av en brannbil med en strek over for å avbryte utrykkning
 
-
+Legge til forklaring om hvorfor de skal bruke panelet
+    Gjør følgende for å avbryte alarm
 
 
 ### Pappa

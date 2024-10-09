@@ -8,14 +8,33 @@ body{
     background-color: white;
     margin: auto;
     border-radius: 50px;
-    width: 50rem;
-    height: 50rem;
+    width: 53rem;
+    height: 53rem;
     box-shadow: 30px 30px 30px hsl(0, 0%, 10%);
 }
 
 .bunn{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.høyttaler{
+    max-width: 12rem;
+    min-width: 12rem;
+    min-height: 8rem;
+    border: 3px solid hsl(0, 0%, 24%);
+    background-color: rgb(157, 156, 156);
+    border-radius: 50%;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.høyttaler p{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 .knapper{
@@ -23,11 +42,9 @@ body{
 }
 
 .knapp{
-    max-width: 12.5em;
+    max-width: 17em;
     border: 6px solid black;
     border-radius: 50%;
-    margin-right: 3rem;
-    margin-left: 4rem;
 }
 
 .knapp:hover{
@@ -63,7 +80,6 @@ body{
     border-radius: 10px;
     color: hsl(46, 78%, 43%);
     background-color: hsl(0, 0%, 32%);
-    margin-left: 4rem;
 }
 
 .klokke p{
@@ -82,8 +98,6 @@ body{
 
 .klokke-tekst h4{
     margin: 0;
-    padding-left: 4rem;
-    padding-bottom: 10px;
 }
 
 .topp{
@@ -101,12 +115,12 @@ body{
 }
 
 .lys{
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid hsl(0, 0%, 38%);
+    border: 2px solid hsl(0, 0%, 38%);
     border-radius: 50%;
     margin: 15px;
 }
