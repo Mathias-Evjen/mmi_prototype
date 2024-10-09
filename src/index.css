@@ -125,11 +125,6 @@ body{
     margin: 15px;
 }
 
-.text-holder{
-    display: flex;
-    flex-direction: column;
-}
-
 .lys-text-holder p{
     display: flex;
     font-size: 1.4rem;

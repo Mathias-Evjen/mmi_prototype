@@ -7,7 +7,7 @@ function Topp(props) {
     }
     
     const lufterLys = {
-        backgroundColor: props.status === "Lufter" ? "hsla(400, 100%, 50%, 0.774)" : "hsla(400, 100%, 50%, 0.1)"
+        backgroundColor: props.status === "Lufter" ? "hsla(420, 100%, 50%, 0.774)" : "hsla(400, 100%, 50%, 0.1)"
     }
 
     const defaultLys = {

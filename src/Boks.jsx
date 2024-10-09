@@ -60,7 +60,7 @@ function Boks() {
             <div className="boks">
                 <div className="klokke-tekst">
                     <h3>Tid til brannsentral blir varslet:</h3>
-                    <Timer statustatus={alarmStatus}/>
+                    <Timer status={alarmStatus}/>
                 </div>
                 <div className="topp">
                     <Topp status={alarmStatus}/>
